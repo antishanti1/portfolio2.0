@@ -2,9 +2,12 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import acendi from "@/public/acendi.png";
+import ukg from "@/public/ukg.png";
+import aidmapper from "@/public/dopomoha.png";
+import instock from "@/public/instock.png";
+import voxai from "@/public/voxai.png";
+import aimarketplace from "@/public/ai.png";
 
 export const links = [
   {
@@ -66,42 +69,42 @@ export const projectsData = [
     description:
       "Mobile app for a startup. I'm the lead developer working on mobile app for meditation. It's a React Native app with a Node.js backend using Firebase for authentification and data storage.",
     tags: ["React Native", "Firebase", "Node.js", "Express"],
-    imageUrl: corpcommentImg,
+    imageUrl: acendi,
   },
   {
     title: "AI Marketplace",
     description:
       "Colaborated with a team of developers to build a marketplace for AI models. I was in charge of the front-end. It's a Next.js app with a AWS backend and data storage.",
-    tags: ["Next,js", "TypeScript", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    tags: ["Next.js", "TypeScript", "Tailwind", "Redux"],
+    imageUrl: aimarketplace,
   },
   {
     title: "TeamWise by UKG",
     description:
-      "Psychological Safety Toolkit using Generative AI model trained by UKG engineers. In collaboration with UX designers in an Agile environment, leveraged Jira for project management, automated tasks,generated creative content, and made data-driven decisions by analyzing patterns.",
+      "Psychological Safety Toolkit using Generative AI model trained by UKG engineers. ",
     tags: ["React", "Node.js", "Express", "MySQL"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: ukg,
   },
   {
     title: "AidMapper",
     description:
       "Volunteering platform for refugees, featuring a map-based search for aid organizations. I was in charge of the front-end and back-end. ",
     tags: ["React", "Node.js", "Express", "MongoDB", "Mapbox"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: aidmapper,
   },
   {
     title: "VoxAI",
     description:
-      "Custom AI chatbot powered by OpenAI API.",
+      "   Mobile app that combines the power of natural language processing seamless real-time image and text generation within the platform,enhancing the overall user experience.",
     tags: ["React Native", "OpenAi Api"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: voxai,
   },
   {
     title: "InStock",
     description:
-      "   Project for a Fortune 500 client—an Inventory Management System. The project involved building a scalable,full-stack web application. I was in charge of the front-end and back-end.",
+      "   Project for a Fortune 500 client—an Inventory Management System. The project involved building a scalable,full-stack web application.",
     tags: ["React", "Node.js", "Express", "mySQL"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: instock,
   },
 ] as const;
 
