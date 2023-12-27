@@ -13,7 +13,10 @@ import { FaGithub } from "react-icons/fa6";
 
 export default function Intro() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section
+      id="home"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-28"
+    >
       <div className="flex items-center justify-center">
         <motion.div
           initial={{ y: -100, opacity: 0 }}
