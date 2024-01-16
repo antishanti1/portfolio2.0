@@ -1,7 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { MdSchool } from "react-icons/md";
+import { MdOutlineWork } from "react-icons/md";
+import { MdComputer } from "react-icons/md";
+import { MdOutlinePhoneIphone } from "react-icons/md";
 import acendi from "@/public/acendi.png";
 import ukg from "@/public/ukg.png";
 import aidmapper from "@/public/dopomoha.png";
@@ -41,24 +42,31 @@ export const experiencesData = [
         title: "Front-End Developer",
         location: "Miami, FL",
         description:
-          "Collaborated with the development team to design and develop interactive web applications using React, HTML, CSS, and JavaScript. Translated design mockups into functional user interfaces, integrated third-party APIs, and actively participated in Agile development methodologies, ensuring project success through continuous improvement.",
-        icon: React.createElement(CgWorkAlt),
+           "My first 2 years in Web Development I have worked as a part-time contractor for a Starhouse Tech company. I worked on a variety of projects, from small websites to large web applications mostly focusing on Front-End.",
         date: "2021 - 2023",
       },
   {
     title: "Graduated BrainStation bootcamp",
     location: "Miami, FL",
     description:
-      "After working as a Front-End Developer for almost 2 years, I decided to take a bootcamp to learn more about Full-Stack development. I learned Node.js, Express, MongoDB, SQL, Python and more.",
-    icon: React.createElement(LuGraduationCap),
+      "After that, I decided to take a bootcamp to learn more about Full-Stack development. I learned Node.js, Express, MongoDB, SQL, Python and more.",
+    icon: React.createElement(MdSchool),
     date: "2023",
+  },
+  {
+    title: "Freelance Software Engineer",
+    location: "Miami, Fl",
+    description:
+      "I started working as a freelance developer. I have been hired to work on multiple projects for different clients, most of them where startups, so I have learned a lot about a startup environment and had a chance to learn more about AI technologies",
+    icon: React.createElement(MdComputer),
+    date: "May 2023 - present",
   },
   {
     title: "React Native Developer",
     location: "Miami, Fl",
     description:
-      "I'm now a full-stack developer as well as a mobile developer. I'm currently working on a React Native project for a startup.",
-    icon: React.createElement(FaReact),
+      "Currently I'm working as a React Native developer for a startup. I'm the lead developer working on mobile app for meditation. It's a React Native app with a Node.js backend using Firebase for authentification and data storage.",
+    icon: React.createElement(MdOutlinePhoneIphone),
     date: "Jun 2023 - present",
   },
 ] as const;

@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="scroll-mt-28 mb-28 max-w-[53rem] text-center small:mb-40"
+      className="scroll-mt-28  max-w-[53rem] text-center small:mb-40"
     >
       <SectionHeading>My Skills</SectionHeading>
 
