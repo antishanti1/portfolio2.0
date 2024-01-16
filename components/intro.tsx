@@ -39,8 +39,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold"> Hi, I&apos;m Alina.</span> I&apos;m a{" "}
-        <span className="font-bold"> Full Stack Developer</span>.I am
-        specialized in building websites and mobile applications with{" "}
+        <span className="font-bold"> Full Stack Developer</span> specialized in
+        building websites and mobile applications with{" "}
         <span className="font-bold">
           React, React Native, Next.js, and Tailwind CSS.
         </span>

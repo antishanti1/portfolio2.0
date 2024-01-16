@@ -43,7 +43,8 @@ export const experiencesData = [
         location: "Miami, FL",
         description:
            "My first 2 years in Web Development I have worked as a part-time contractor for a Starhouse Tech company. I worked on a variety of projects, from small websites to large web applications mostly focusing on Front-End.",
-        date: "2021 - 2023",
+        icon: React.createElement(MdOutlineWork),
+           date: "2021 - 2023",
       },
   {
     title: "Graduated BrainStation bootcamp",
