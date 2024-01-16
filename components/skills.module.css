@@ -1,0 +1,29 @@
+/*
+You do not need to worry about .error {} colliding with any other `.css` or
+`.module.css` files!
+*/
+.neomorph {
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #e0e1e2, #ffffff);
+    box-shadow:  20px 20px 60px #d4d5d5,
+                 -20px -20px 60px #ffffff;
+
+  }
+.neomorph-nav {
+    position: absolute;
+    inset: 0;
+    z-index: -10;
+    font-weight: 500;
+    align-items: center;
+    padding:1rem;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #e0e1e2, #ffffff);
+    box-shadow:  20px 20px 60px #d4d5d5,
+                 -20px -20px 60px #ffffff;
+
+  }
