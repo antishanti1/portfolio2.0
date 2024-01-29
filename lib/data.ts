@@ -9,6 +9,7 @@ import aidmapper from "@/public/dopomoha.png";
 import instock from "@/public/instock.png";
 import voxai from "@/public/voxai.png";
 import aimarketplace from "@/public/ai.png";
+import helpdesk from "@/public/helpdesk.png";
 
 export const links = [
   {
@@ -86,6 +87,13 @@ export const projectsData = [
       "Colaborated with a team of developers to build a marketplace for AI models. I was in charge of the front-end. It's a Next.js app with a AWS backend and data storage.",
     tags: ["Next.js", "TypeScript", "Tailwind", "Redux"],
     imageUrl: aimarketplace,
+  },
+  {
+    title: "Help Desk",
+    description:
+      "A mobile application help desk for ticketing and tracking issues. I was in charge of the front-end and back-end. ",
+    tags: ["React Native", "Typescript", "Firebase"],
+    imageUrl: helpdesk,
   },
   {
     title: "TeamWise by UKG",
