@@ -102,13 +102,13 @@ export const projectsData = [
     tags: ["React", "Node.js", "Express", "MySQL"],
     imageUrl: ukg,
   },
-  {
-    title: "AidMapper",
-    description:
-      "Volunteering platform for refugees, featuring a map-based search for aid organizations. I was in charge of the front-end and back-end. ",
-    tags: ["React", "Node.js", "Express", "MongoDB", "Mapbox"],
-    imageUrl: aidmapper,
-  },
+  // {
+  //   title: "AidMapper",
+  //   description:
+  //     "Volunteering platform for refugees, featuring a map-based search for aid organizations. I was in charge of the front-end and back-end. ",
+  //   tags: ["React", "Node.js", "Express", "MongoDB", "Mapbox"],
+  //   imageUrl: aidmapper,
+  // },
   {
     title: "VoxAI",
     description:
